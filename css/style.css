@@ -14,4 +14,40 @@ body {
 
 body {
     background-color: lavender;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container-header-menu {
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-trust {
+    max-width: 1146px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-advantages {
+    max-width: 1407px;
+    margin: 0 auto;
+    position: relative;  
+}
+
+.container-product {
+    max-width: 1146px;
+    margin: 0 auto;
+    position: relative;  
+}
+
+.container-footer {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;  
 }
