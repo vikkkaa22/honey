@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126 | License: public domain */
+
+html
+ {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Kodchasan;
+}
+
+/* Устанавливаем HTML5 элементы как блочные по умолчанию */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* Обнуляем списки */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Обнуляем цитаты */
+blockquote,
+q {
+    quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+    content: none;
+}
+
+/* Обнуляем таблицы */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Устанавливаем для всех элементов коробочную модель Border-Box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Kodchasan;
+    background-color: #fff;
+    padding: 0 50px 0 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+/* .nav_links{
+    ol{
+        display: flex;
+    }
+    
+} */
+.nav_links ol {
+    display: flex;
+    gap: 40px;
+}
+.header_image {
+    margin-left: 227px;
+}
+
+.honey {
+    height: 865px;
+    background-image: url("img/fon.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.honey_left {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin-left: 200px; */
+    margin-top: 185px;
+    /* width: 500px; */
+}
+.honey_text {
+    font-size: 100px;
+    font-weight: 900;
+    margin-left: 177px;
+}
+.cherpak {
+    position: absolute;
+    width: 205px;
+    height: 321.56px;
+    margin-top: 17px;
+}
+.buy_now {
+    width: 180px;
+    height: 65px;
+    background-color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-left: 177px;
+    margin-top: 100px;
+    border: 0;
+    font-family: Kodchasan;
+}
+.learn_more {
+    width: 209px;
+    height: 65px;
+    background-color: #ffaf54;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Kodchasan;
+}
+.logo_company {
+    margin-top: 130px;
+    margin-left: 228px;
+}
+.title_company {
+    font-size: 45px;
+    font-weight: 900;
+}
+.company_logos {
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+}
+.honey_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 130px;
+}
+.card_text {
+    width: 500px;
+}
+.title_card {
+    font-size: 45px;
+    font-weight: bold;
+}
+.subtitle_card {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.card_btn {
+    margin-top: 30px;
+    width: 184px;
+    height: 59px;
+    background-color: #e58311;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-family: Kodchasan;
+}
+.product { 
+    max-width: 1440px;
+    margin-top: 100px;
+    font-family: Kodchasan;
+    margin: 0 auto;
+    padding: 0 177px 0 177px;
+}
+.product_about_see {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product_title {
+    font-size: 45px;
+    font-weight: bold;
+}
+.product_subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e58211;
+    text-decoration: underline;
+    text-decoration-color: #e58211;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+}
+.product_cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.product_card {
+    padding-left: 30px;
+    height: 305px;
+    width: 558px;
+    background-color: rgba(229, 130, 17, 7%);
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.img_honey{
+    margin-top: 30px;
+
+}
+.abv{
+    margin-top: 30px;
+    width: 300px;
+}
+.product_name {
+    font-size: 28px;
+    font-weight: 500;
+}
+.product_about {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.product_btn {
+    color:#E58211;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #E58211;
+    margin-top: 30px;
+    background-color: transparent;
+    font-family: Kodchasan;
+}
+.footer_honey {
+    margin: 130px -50px 0 -50px; 
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF9D2D;
+    background: linear-gradient(90deg,rgba(255, 157, 45, 1) 0%, rgba(255, 216, 119, 1) 100%);
+}
+.footer_text {
+    width: 269px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+.footer_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin-left: 88px;
+}
+.footer_apps {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 120px;
+}
